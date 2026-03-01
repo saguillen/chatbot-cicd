@@ -85,3 +85,4 @@ jobs:
             ansible-playbook -i inventory/gcp.yml \
               playbooks/deploy-bot.yml \
               --extra-vars "image_tag=${{ github.sha }}"
+              
